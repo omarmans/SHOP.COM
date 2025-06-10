@@ -53,7 +53,7 @@ export class DynamicProudctsComponent {
   }
 
   get visibleProducts() {
-    return this.products().slice(0, 3);
+    return this.products().slice(0, 4);
   }
 
   get extraProducts() {

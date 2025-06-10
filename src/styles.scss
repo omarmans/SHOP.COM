@@ -1,7 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import "ngx-owl-carousel-o/lib/styles/scss/owl.carousel";
+@import "ngx-owl-carousel-o/lib/styles/scss/owl.theme.default";
 @font-face {
   font-family: "Integral CF Regular";
   src: url("/Fonts/Integral-CF/Fontspring-DEMO-integralcf-regular.otf")

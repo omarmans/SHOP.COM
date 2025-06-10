@@ -30,3 +30,12 @@
 .rad {
   border-radius: 50px;
 }
+
+@media (max-width: 767px) {
+  .container {
+    .products {
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

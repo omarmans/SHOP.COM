@@ -1,4 +1,4 @@
-<div class="container mt-5 mb-5">
+<div class="container">
   <h1 class="text-4xl font-bold text-center mt-4 mb-6">{{ header() }}</h1>
 
   <div class="products flex flex-wrap justify-between gap-4">
@@ -14,8 +14,8 @@
       />
       <h2 class="pro-name mb-4 text-2xl">{{ product.name }}</h2>
 
-      <div class="text-xl flex items-center gap-2">
-        <div class="flex items-center gap-1 text-yellow-500">
+      <div class="flex items-center gap-2">
+        <div class="flex items-center gap-1 text-yellow-500 text-xl">
           <ng-container *ngFor="let star of getStars(product.rate)">
             <ng-container [ngSwitch]="star">
               <i *ngSwitchCase="'full'" class="fas fa-star"></i>
