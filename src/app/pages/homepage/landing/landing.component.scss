@@ -31,6 +31,9 @@ button {
   .landing {
     .container {
       .leftSec {
+        h1 {
+          margin-top: 30px;
+        }
         .stats {
           flex-wrap: wrap;
           flex-direction: row;
