@@ -92,10 +92,17 @@
   }
 }
 
-@media (max-width: 1270px) {
+//update
+@media (max-width: 1160px) {
   .footer {
     .update {
-      flex-direction: column;
+      br {
+      }
+    }
+    .container {
+      div {
+        margin-top: 60px;
+      }
     }
   }
 }
@@ -118,6 +125,22 @@
       .pay {
         align-items: center;
         justify-content: center;
+      }
+    }
+  }
+}
+//update
+@media (max-width: 880px) {
+  .footer {
+    margin-top: 100px;
+    .update {
+      width: 100%;
+      flex-wrap: wrap;
+      height: fit-content;
+    }
+    .container {
+      div {
+        margin-top: 60px;
       }
     }
   }
